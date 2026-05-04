@@ -1,0 +1,1 @@
+"""MOU register preparation package."""
