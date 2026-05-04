@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment
+.env
+.env.*
+
+# Input files from bot and downloaded opendata resources
+input/*
+!input/.gitkeep
+!input/README.md
+
+# Generated output files
+output/*
+!output/.gitkeep
+!output/README.md
+
+# Generated reports
+reports/*
+!reports/.gitkeep
+!reports/README.md
+
+# Downloaded reference files and local manual overrides
+reference/*
+!reference/.gitkeep
+!reference/README.md
+!reference/manual_overrides.example.csv
+
+# Excel temporary files
+~$*.xls
+~$*.xlsx

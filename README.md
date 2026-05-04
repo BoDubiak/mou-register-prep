@@ -36,6 +36,12 @@ README.md
 
 - `reference/manual_overrides.csv`
 
+У git зберігається тільки приклад `reference/manual_overrides.example.csv`. Робочий `manual_overrides.csv` створіть локально:
+
+```powershell
+Copy-Item reference\manual_overrides.example.csv reference\manual_overrides.csv
+```
+
 ## Встановлення
 
 ```powershell
